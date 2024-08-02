@@ -1,8 +1,170 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /*max-width: 800px; */
-  font-family: "Open Sans", sans-serif;
+/*Configuracion del grid****************************************************************************** */
+#contenedorgid {
+  display: grid;
+  
+  margin: 0 100px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto 100px;
+  grid-template-areas:
+    "articulo lateral1"
+    "articulo lateral2"
+    "articulo lateral3";
+  background-color: #f3e5d8;
+  justify-content: center;
+  padding: 30px;
+}
+/*Configuracion del articulo principal****************************************************************************** */
+article {
+  grid-area: articulo;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  justify-items: auto;
+}
+#imgprincipal {
+  width: 100%;
+  border-radius: 10px;
+}
+.contenidoprincipal {
+  padding: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+.p2 {
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #faebeb;
+}
+/*Configuracion del lateral derecho superior****************************************************************************** */
+.secioneslaterales1 {
+  grid-area: lateral1;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.listaingre {
+  padding: 5px;
+  text-align: justify;
+}
+
+.tdcont {
+  border-bottom: 1px solid #7e4333;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 5px;
+  font-family: "DM Sans", sans-serif;
+}
+.tablacont tr td:nth-of-type(2) {
+  text-align: end;
+  color: #7e4333;
+}
+
+/*Configuracion del lateral derecho medio****************************************************************************** */
+.secioneslaterales2 {
+  grid-area: lateral2;
+  padding: 2px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.divmejores {
+  display: flex;
+  margin: 10px auto;
+  width: auto;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+.imgmejores {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 5px;
+  border-color: #724333;
+  border-radius: 15px;
+  border-style: double;
+}
+
+/*Configuracion titulos****************************************************************************** */
+
+.titulo2 {
+  color: #724333;
+  padding: 10px;
+  font-size: 3pc;
+  font-family: "DM Serif Display", serif;
+}
+
+.titulo3 {
+  color: #724333;
+  padding: 10px;
+  font-size: 2pc;
+  font-family: "DM Serif Display", serif;
+}
+.titulo4 {
+  color: #724333;
+  padding: 10px;
+  font-size: 1pc;
+  font-family: "DM Serif Display", serif;
+}
+
+.contenido {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+
+.tdcont {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+.lisdes {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+/*pie de pagina***************************************************************************** */
+
+#piedepagina {
+  background-color: #255538;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pie2 {
+  color: white;
+}
+
+/*adaptacion a 600 o menos px***************************************************************************** */
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+/*Configuracion del grid****************************************************************************** */
+#contenedorgid {
+  display: grid;
+  
+  margin: 0 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto 100px;
+  grid-template-areas:
+    "articulo" 
+    "articulo" 
+    "articulo"
+    "lateral1" 
+    "lateral2"
+    "lateral3";
+  background-color: #f3e5d8;
+  justify-content: center;
+  padding: 5px;
+
+}
 }
