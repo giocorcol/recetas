@@ -3,7 +3,7 @@
 #contenedorgidindex {
   display: grid;
   
-  margin: 10px 100px;
+  margin: 10px 60px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 400px auto auto auto;
   grid-template-areas:
@@ -15,6 +15,16 @@
   justify-content: center;
   padding: 10px;
 }
+
+/*  .video{
+
+  grid-area: video;
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  justify-content: center;
+}   */
+
 
 #tituloindex {
   grid-area: imgprin;
@@ -32,6 +42,7 @@
 }
 #t2 {
   grid-area: titulo;
+  font-size: 50px;
   
   padding: 50px 0px 0px 20px;
   border: 2px ;
@@ -124,12 +135,13 @@
 
 
 #linkrecetas {
+  font-size: 30px;
   display: inline-block;
   text-decoration: none;
   color: #724333;
   
-  border-radius: 25px;
-  padding: 10px;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 #linkrecetas:hover{
@@ -203,12 +215,13 @@ margin: 0 20px;
 
   #tituloindex {
     text-align: center;
-    background-image: url("../image/Cocteles3.jpg");
+    background-image:  none;  /*url("../image/Cocteles3.jpg");*/
     padding: 20px;
-    border: 2px solid #255538;
+    border: none;
     margin: 5px;
     border-radius: 15px;
-    color: #f1f7f3;
+    color: #255538;
+    font-size: 40px;
     width: auto;
     height: auto;
    

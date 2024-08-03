@@ -2,7 +2,7 @@
 #contenedorgid {
   display: grid;
   
-  margin: 0 100px;
+  margin: 0 60px;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto auto 100px;
   grid-template-areas:
@@ -33,10 +33,11 @@ article {
   text-align: justify;
 }
 .p2 {
-  padding: 30px;
+  padding: 10px 50px;
   margin: 5px;
   border-radius: 10px;
-  background-color: #faebeb;
+  background-color:#255538;
+  
 }
 /*Configuracion del lateral derecho superior****************************************************************************** */
 .secioneslaterales1 {
@@ -47,7 +48,7 @@ article {
   background-color: white;
 }
 .listaingre {
-  padding: 5px;
+  padding: 15px;
   text-align: justify;
 }
 
@@ -67,7 +68,7 @@ article {
 /*Configuracion del lateral derecho medio****************************************************************************** */
 .secioneslaterales2 {
   grid-area: lateral2;
-  padding: 2px;
+  padding: 10px;
   margin: 10px;
   border-radius: 10px;
   background-color: white;
@@ -93,53 +94,85 @@ article {
 .titulo2 {
   color: #724333;
   padding: 10px;
-  font-size: 3pc;
-  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .titulo3 {
   color: #724333;
-  padding: 10px;
+  padding: 30px;
   font-size: 2pc;
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Sans", sans-serif;
 }
+
+
+.titulo3info {
+  color: white;
+  padding: 20px;
+  font-size: 2pc;
+  font-family: "DM Sans", sans-serif;
+}
+
+.contenidoprincipal{
+  
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+
+}
+
+
 .titulo4 {
   color: #724333;
-  padding: 10px;
+  padding: 15px;
   font-size: 1pc;
-  font-family: "DM Serif Display", serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .contenido {
+  text-align: justify;
+  padding: 5px;
   font-family: "DM Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .tdcont {
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
+
+.lisdesdatos {
+  text-align: justify;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+ margin-top: 2px;
+ color: white;
+
+}
+
+
 
 .lisdes {
+  text-align: justify;
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+ margin-top: 2px;
+
 }
 
-/*pie de pagina***************************************************************************** */
+.lisdespre {
+  text-align: justify;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+ margin-top: 20px;
 
-#piedepagina {
-  background-color: #255538;
-  padding: 15px;
-  margin: 2px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
 }
 
-#pie2 {
-  color: white;
-}
 
+/*hover cambio de comportamiento al acercar el mouse******** */
+.linkrecetasre1:hover {
+  color: #255538;
+  background-color: white;
+}
 /*adaptacion a 600 o menos px***************************************************************************** */
 
 
@@ -168,3 +201,5 @@ article {
 
 }
 }
+
+
