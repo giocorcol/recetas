@@ -141,12 +141,14 @@
   color: #724333;
   
   border-radius: 15px;
-  padding: 5px;
+  padding: 3px;
 }
 
 #linkrecetas:hover{
   color: white;
 background-color: #255538;
+
+
 
 }
 
