@@ -17,6 +17,12 @@ body {
 }
 
 
+.temaoscuro{
+background-color: black;
+
+
+}
+
 /*CABECERA DEL SITIO****************************************************************************** */
 header {
   background-image: url("../image/cinta.png") ;      /*#255538;*/
@@ -54,13 +60,13 @@ header {
 
 }
 
-a.dianoche {
+
+
+#dianoche1 {
+ 
   height: 35px;
   width: 35px;
-}
-
-a.dianoche img.dianoche1 {
-  width: 100%;
+  cursor: pointer;
 }
 
 

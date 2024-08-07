@@ -5,38 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="stylesheet" href="./css/stylegen.css" />
+    <link rel="stylesheet" href="./css/stylecontacto.css" />
   </head>
   <body>
     <!--inicio CABECERA -->
     <header id="cabecera">
       <a class="logobitcook" href="./index.html" target="_self"
-        ><img class="logobitcook1" src="./image/logo_bitcook.png" alt="logo betcook"
+        ><img
+          class="logobitcook1"
+          src="./image/logo_bitcook.png"
+          alt="logo betcook"
       /></a>
 
-       <a id="cab2" href="./contacto.html" target="_self">Enviá tu receta</a>
+      <a id="cab2" href="./contacto.html" target="_self">Enviá tu receta</a>
 
-      <!--    --><a class="dianoche" href="" target="_self">
-      <img class="dianoche1"   src="./image/noche.png" alt="modo noche" /></a>
-      
+      <img id="dianoche1" src="./image/noche.png" alt="modo noche" />
     </header>
-
-
     <!--fin CABECERA -->
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odit, cumque
-      s
+<main class="mainenviatureceta">
+    <h1>Envia tu receta!</h1>
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At illum numquam
+      commodi! Dolor labore molestias quam libero, eius aperiam eos, ea in optio
+      aut nulla? Magni vitae doloribus eum optio.
     </p>
+
+
+    <div class="form-group">
+      <label for="nombre_completo">Nombre completo</label>
+      <input
+        type="text"
+        name="nombre_completo"
+        placeholder="Nombre completo..."
+        id="nombre_completo"
+      />
+    </div>
+
+
+
+    <div class="form-group">
+      <label for="tiempo_preparacion">Tiempo de preparacion</label>
+      <input
+        type="number"
+        name="tiempo_preparacion"
+        placeholder="Minutos..."
+        id="tiempo_preparacion"
+      />
+    </div>
+
+
+    <div>
+      <label for="ingredientes">Ingredientes</label>
+      <textarea name="ingredientes" id="ingredientes"></textarea>
+    </div>
+
+
+    <div>
+      <label for="preparacion">Preparacion</label>
+      <textarea name="preparacion" id="preparacion"></textarea>
+    </div>
+
+
+    <button>Envio</button>
+
+</main>
 
     <!--inicio FOOTER-->
     <footer id="footer">
       <a class="logobitcook" href="./main.html" target="_self"
-        ><img  class="logobitcook1" src="./image/logo_bitcook.png" alt="logo betcook"
+        ><img
+          class="logobitcook1"
+          src="./image/logo_bitcook.png"
+          alt="logo betcook"
       /></a>
 
       <p id="pie2">@ 2024 Bogotá Instituted of tecgnology</p>
     </footer>
 
     <!--FIN FOOTER-->
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

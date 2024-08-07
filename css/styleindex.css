@@ -1,6 +1,6 @@
 
 /*Configuracion del grid****************************************************************************** */
-#contenedorgidindex {
+section {
   display: grid;
   
   margin: 10px 60px;
@@ -11,10 +11,13 @@
     "titulo titulo titulo "
     "articulo1 articulo2 articulo3"
     "articulo4 articulo5 articulo6";
-  background-color:#f3e5d8;
+  
   justify-content: center;
   padding: 10px;
 }
+
+
+
 
 /*  .video{
 
@@ -32,7 +35,7 @@
   
   background-image: url("../image/Cocteles.jpg");
   padding: 20px;
-  border: 2px solid #255538;
+  
   margin: 15px;
   border-radius: 15px;
   color: #fafafa;
@@ -40,7 +43,7 @@
   height: auto;
  
 }
-#t2 {
+.t2 {
   grid-area: titulo;
   font-size: 50px;
   
@@ -52,28 +55,48 @@
  
 }
 
+
+.t2tema {
+  
+  color: #fbfbfb;
+ 
+}
+
 .receta1 {
   grid-area: articulo1;
   background-color: rgb(248, 246, 246);
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
   
 }
+
+.receta1t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
+}
+
 .receta2 {
   grid-area: articulo2;
   background-color: rgb(248, 246, 246);
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
+}
+
+.receta2t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
 }
 .receta3 {
   grid-area: articulo3;
@@ -81,10 +104,15 @@
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
+}
+.receta3t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
 }
 
 .receta4 {
@@ -93,12 +121,17 @@
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
 }
 
+.receta4t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
+}
 
 .receta5 {
   grid-area: articulo5;
@@ -106,10 +139,16 @@
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
+}
+
+.receta5t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
 }
 
 .receta6 {
@@ -118,11 +157,19 @@
   padding: 10px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(248, 246, 246);
   width: auto;
   align-items: center;
   
 }
+
+.receta6t {
+  
+  background-color: rgb(58, 56, 56);
+  color: white;
+
+}
+
+
 
 
 
@@ -134,7 +181,7 @@
 }
 
 
-#linkrecetas {
+.linkrecetas {
   font-size: 30px;
   display: inline-block;
   text-decoration: none;
@@ -144,10 +191,22 @@
   padding: 3px;
 }
 
-#linkrecetas:hover{
+.linkrecetastema {
+  color: #f8f5f4;
+  
+}
+
+
+
+.linkrecetas:hover{
   color: white;
 background-color: #255538;
+}
 
+
+.linkrecetastema:hover{
+  color: rgb(5, 1, 1);
+background-color: #f2f5f3;
 
 
 }
@@ -179,7 +238,7 @@ margin: 0 20px;
       "articulo1 articulo2"
       "articulo3 articulo4" 
       "articulo5 articulo6";
-    background-color: #f3e5d8;
+    
     justify-content: center;
     padding: 5px;
   
@@ -208,7 +267,7 @@ margin: 0 20px;
       "articulo4" 
       "articulo5"
       "articulo6";
-    background-color: #f3e5d8;
+    
     justify-content: center;
     padding: 5px;
   

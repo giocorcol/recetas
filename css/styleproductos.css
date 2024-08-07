@@ -9,12 +9,12 @@
     "articulo lateral1"
     "articulo lateral2"
     "articulo lateral3";
-  background-color: #f3e5d8;
+
   justify-content: center;
   padding: 30px;
 }
 /*Configuracion del articulo principal****************************************************************************** */
-article {
+.artrecetas {
   grid-area: articulo;
   padding: 30px;
   margin: 10px;
@@ -22,6 +22,14 @@ article {
   background-color: white;
   justify-items: auto;
 }
+
+.artrecetastema {
+  color: white;
+  background-color: rgb(58, 56, 56);
+  justify-items: auto;
+  
+}
+
 #imgprincipal {
   width: 100%;
   border-radius: 10px;
@@ -173,11 +181,7 @@ article {
 }
 
 
-/*hover cambio de comportamiento al acercar el mouse******** */
-.linkrecetasre1:hover {
-  color: #255538;
-  background-color: white;
-}
+
 /*adaptacion a 600 o menos px***************************************************************************** */
 
 
@@ -200,7 +204,7 @@ article {
     "lateral1" 
     "lateral2"
     "lateral3";
-  background-color: #f3e5d8;
+ 
   justify-content: center;
   padding: 5px;
 
