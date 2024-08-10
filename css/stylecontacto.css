@@ -19,6 +19,12 @@ h1 {
   color: #724333;
   margin: 10px auto;
 }
+
+.h1tema {
+  color: #faf8f8;
+  
+}
+
 label{
   width: 100%;
   display: inline-block;
@@ -28,6 +34,14 @@ label{
   font-weight: bold;
 }
 
+label{
+  
+  color: #f9f7f6;
+  
+}
+
+
+
 input{
   height: 40px;
   width: 100%;
@@ -36,6 +50,10 @@ input{
   border-color: #724333;
   padding: 15px;
   font-size: 15px;
+}
+
+.inputtema{
+  background-color: #7c7c78;
 }
 
 
@@ -49,6 +67,9 @@ textarea{
   padding: 15px;
   font-size: 15px;
   
+}
+.textareatema{
+  background-color: #7c7c78;
 }
 
 

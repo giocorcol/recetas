@@ -55,6 +55,12 @@
   border-radius: 10px;
   background-color: white;
 }
+
+.secioneslaterales1tema {
+  color: white;
+  background-color: rgb(61, 59, 59);
+}
+
 .listaingre {
   padding: 15px;
   text-align: justify;
@@ -73,6 +79,12 @@
   color: #7e4333;
 }
 
+
+.tablaconttema tr td:nth-of-type(2) {
+  text-align: end;
+  color: #f3eeed;
+}
+
 /*Configuracion del lateral derecho medio****************************************************************************** */
 .secioneslaterales2 {
   grid-area: lateral2;
@@ -81,6 +93,14 @@
   border-radius: 10px;
   background-color: white;
 }
+
+
+.secioneslaterales2tema {
+  color: white;
+  background-color: rgb(61, 59, 59);
+}
+
+
 .divmejores {
   display: flex;
   margin: 10px auto;
@@ -111,12 +131,24 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.titulo2tema {
+  color: #faf9f8;
+ 
+}
+
 .titulo3 {
   color: #724333;
   padding: 30px;
   font-size: 18px;
   font-family: "DM Sans", sans-serif;
 }
+
+.titulo3tema {
+  color: #faf9f8;
+ 
+}
+
+
 
 
 .titulo3info {
@@ -125,6 +157,12 @@
   font-size: 2pc;
   font-family: "DM Sans", sans-serif;
 }
+
+.titulo3infotema {
+  color: #faf9f8;
+ 
+}
+
 
 .contenidoprincipal{
   
@@ -141,6 +179,12 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.titulo4tema {
+  color: #faf9f8;
+ 
+}
+
+
 .contenido {
   text-align: justify;
   padding: 5px;
@@ -152,6 +196,13 @@
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
 }
+
+
+.tdconttema {
+  color: white;
+}
+
+
 
 .lisdesdatos {
   text-align: justify;
